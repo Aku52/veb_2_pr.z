@@ -10,7 +10,7 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="container">
         <div class="left-flex">
         <img class="logo" src="assets/IMAGE.Whirl.svg" alt ="logotip">
             <nav class="nav-flex">
@@ -24,10 +24,9 @@
             <button class="sing-in">Sign in</button>
             <button class="demo">Book a demo</button>
         </div>
-
     </header>
     <main>
-        <section class="main_info">
+        <section class="main_info container">
             <div class="main_info_left ">
                 <h1> Your everyday tasks, automated.</h1>
                 <p class="main_info_text"> Whirl lets you design and streamline your everyday tasks and workflows in just a few clicks.</p>
@@ -41,7 +40,7 @@
             </div>
             <img src="assets/Image.stiker.svg" alt="stiker">
         </section>
-        <section class = "companies">
+        <section class = "companies container">
             <p class = "companies_text">Trusted by 50,000+ companies</p>
             <ul class ="companies_list">
                 <li><img src="assets/focusfox.svg" alt ="focusfox"></li>
@@ -50,7 +49,7 @@
                 <li><img src="assets/Carded.svg" alt ="Carded"></li>
             </ul>
         </section>
-        <section class="features">
+        <section class="features container">
             <div  class="features_fast">
                 <img src="assets/molni.svg" alt ="molni" >
                 <h2>Fast. Really fast.</h2>
@@ -62,7 +61,7 @@
             </div>
             <div class="features_buck" >
                 <img  src="assets/mony.svg" alt ="mony" >
-                <h2>More bang for buck.</h2>
+                <h2 class="features_title">More bang for buck.</h2>
                 <p>
                     Ut enim ad minim veniam, quis 
                     nostrud exercitation ullamco laboris 
@@ -71,7 +70,7 @@
             </div>
             <div class="features_safe">
                 <img src="assets/ryka.svg" alt ="ryka" >
-                <h2>Safe and secure.</h2>
+                <h2 class="features-title">Safe and secure.</h2>
                 <p>
                     Ut enim ad minim veniam, quis 
                     nostrud exercitation ullamco laboris 
@@ -79,37 +78,66 @@
                 </p>
             </div>
         </section>
-        <section>
-            <h3> We will take care of everything,</h3>
-            <h3> so you can get back to relaxing.</h3>
-            <div>
-                <img src="assets/igla.svg" alt ="igla" >
-                <p> Anti-loss technology</p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <img src="assets/Vector_vniz.svg" alt ="Vector_vniz" >
+
+        <section  class="care">
+            <div  class="container">
+                <h4 class="care_title"> We will take care of everything,
+                     so you can get back to relaxing.
+                </h4>
+                <div class="care_block">
+                    <div class="care_block_list">
+                        <div class="care_block_item">
+                            <div class="care-block_item_left">   
+                                <img src="assets/igla.svg" alt ="igla" >
+                                <div class="care-block_item_text">
+                                    <h3 class="care-block-title"> Anti-loss technology</h3>
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="care-button"><img src="assets/Vector_vniz.svg" alt ="Vector_vniz" ></button>
+                        </div>
+                        
+                        <div class="care_block_item"> 
+                            <div class="care_block_item_left">
+                                <img src="assets/smile.svg" alt ="smile" >
+                                <div class="care-block-info">
+                                    <h3 class="care-block-title">Exchange easily</h3>
+                                </div>
+                            </div>
+                            <button class="care-button"><img src="assets/Vector_vniz.svg" alt ="Vector_vniz" ></button>
+                        </div>
+                        <div> 
+                            <div class="care_block_item"> 
+                                <div class="care_block_item_left">
+                                    <img src="assets/papka.svg" alt ="papka" >
+                                    <div class="care-block-info">
+                                        <h3 class="care-block-title">Fully encrypted</h3>
+                                    </div>
+                                </div>
+                                <button class="care-button"><img src="assets/Vector_vniz.svg" alt ="Vector_vniz" ></button>
+                            </div>
+                        </div>
+                        <div class="care_block_item">
+                            <div class="care_block_item_left">
+                                <img src="assets/molni_2.svg" alt ="molni_2" >
+                                <div class="care-block-info">
+                                    <h3 class="care-block-title">Plenty of options</h3>
+                                </div>
+                            </div>
+                            <button class="care-button"><img src="assets/Vector_vniz.svg" alt ="Vector_vniz" ></button>
+                        </div>
+                    </div>
+                    <img src="assets/comp.svg" alt ="comp" >
+                </div>   
             </div>
-            <div> 
-                <img src="assets/smile.svg" alt ="smile" >
-                <p>Exchange easily</p>
-                <img src="assets/Vector_vniz.svg" alt ="Vector_vniz" >
-            </div>
-            <div> 
-                <img src="assets/papka.svg" alt ="papka" >
-                <p>Fully encrypted</p>
-                <img src="assets/Vector_vniz.svg" alt ="Vector_vniz" >
-            </div>
-            <div> 
-                <img src="assets/molni_2.svg" alt ="molni_2" >
-                <p>Plenty of options</p>
-                <img src="assets/Vector_vniz.svg" alt ="Vector_vniz" >
-            </div>
-            <div> 
-                <img src="assets/comp.svg" alt ="comp" >
-            </div>   
         </section>
-        <section>
-            <h4> We will take care of everything,</h4>
+        <section class="about container">
+            <h2 class="about-title">
+                What's Whirl all about?
+            </h2>
+            <h4 class=".care_title"> We will take care of everything,</h4>
             <h4> so you can get back to relaxing.</h4>
             <div> 
                 <p> All on one place.</p>
