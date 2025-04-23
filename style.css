@@ -38,6 +38,10 @@ a {
     background-color: #0070A0;
     padding: 6px 20px;
     border: none;
+    font-size: 17px;
+}
+header .demo {
+    font-size: 15px;
 }
 h1{
     font-family: "Fraunces",serif;
@@ -110,6 +114,7 @@ h2{
 h4 {
     font-family: "Fraunces",serif;
     font-size: 42px;
+    font-weight: 400;
 }
 .care_title{
     width:600px ;
@@ -120,6 +125,7 @@ h4 {
     justify-content: space-between;
     align-items: center;
 }
+
 .care_block_item{
     display: flex;
     justify-content: space-between;
@@ -136,6 +142,7 @@ h4 {
 }
 .core_block_item_text{
     margin-left: 20px;
+    font-weight: 400;
 }
 .core_block_item_text h3{
     font-family: "Fraunces", serif ;
@@ -145,6 +152,56 @@ h4 {
 .core_block_list{
     width: 450px;
 }
+.care_block_item button{
+    border: none;
+    background: none;
+}
+.care_block_img{
+    width: 400px;
+}
 
-
-
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 120px auto;
+}
+.about_title{
+    width: 260px;
+    margin: 0;
+}
+.about_blok{
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+}
+.about_blok_item{
+    width: 220px;
+}
+.about_blok_item:nth-child(2){
+    margin: 0 30px 0 40px;
+}
+.track{
+    background-color: #0070A0;
+    padding: 80px 0;
+    color: #FFFFFF;
+}
+.track_blok{
+    display: flex;
+    justify-content: space-between;
+}
+.track_blok_info{
+    width: 450px;
+}
+.track_blok_info h4{
+    margin: 0 0 20px 0;
+}
+.track_blok_list{
+    list-style-image:url(assets/Vector_galochka.svg) ;
+}
+track_blok_list li:nth-child(2){
+    margin: 11px 0;
+}
+.track_blok_info button{
+    margin-top: 27px;
+}
