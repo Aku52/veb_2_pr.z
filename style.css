@@ -111,6 +111,9 @@ h2{
     background-color: #F7F9FA;
     padding: 80px 0;
 }
+h1,h2,h3,h4,h5,h6{
+    margin: 0 ;
+}
 h4 {
     font-family: "Fraunces",serif;
     font-size: 42px;
@@ -125,7 +128,6 @@ h4 {
     justify-content: space-between;
     align-items: center;
 }
-
 .care_block_item{
     display: flex;
     justify-content: space-between;
@@ -159,7 +161,6 @@ h4 {
 .care_block_img{
     width: 400px;
 }
-
 .about {
     display: flex;
     justify-content: space-between;
@@ -199,9 +200,86 @@ h4 {
 .track_blok_list{
     list-style-image:url(assets/Vector_galochka.svg) ;
 }
-track_blok_list li:nth-child(2){
+.track_blok_list li:nth-child(2){
     margin: 11px 0;
 }
 .track_blok_info button{
     margin-top: 27px;
+}
+.automate_title{
+    margin: 120px 0 21px 0;
+}
+.automated_text{
+    width: 640px;
+    font-size: 18px;
+}
+.automated_blok{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 65px 0 120px 0;
+}
+.automated_blok_item{
+    width: 234.5px;
+}
+.automated_blok_item h2{
+    margin: 7px 0 13px 0;
+}
+.blog{
+    background-color: #F7F9FA;
+    padding: 80px 0;
+}
+.blog_info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.blog_block{
+    display: flex;
+    justify-content: space-between;
+
+}
+.blog_block_item{
+    width: 355px;
+    background-color: #FFFFFF;
+}
+.blog_block_item_info{
+        padding: 25px 0 28px 24px;
+        width: 288px;
+}
+.blog_block_item_info h5{
+    color: #2c90c9;
+    background-color: #e6f7ff;
+    padding: 2xp 12xp 4px 12px;
+    font-size: 12px;
+    width: fit-content;
+}
+.blog_block_item_info h2{
+    margin: 8px 0 12px ;
+}
+.blog_date{
+    font-size: 12px;
+    margin-top: 13px;
+}
+.start{
+    background-color: #e6f7ff;
+    padding: 64px 0 48px 64px;
+    margin-top: 80px;
+}
+.start_text{
+    font-size: 18px;
+    margin: 21px 0 33px 0;
+    width: 480px;
+}
+.start_items{
+    display: flex;
+    margin-top: 20px;
+}
+.start_items p{
+    color: #626a72;
+    font-size: 13px;
+    margin-right: 36px;
+}
+.start_items p::before{
+    content:url(assets/galka_2.svg)
 }
